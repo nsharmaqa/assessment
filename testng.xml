@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QATechTesting Test Suite" verbose="1" parallel="tests" thread-count="1" configfailurepolicy="continue">
+    <test name="Add iphone 13 to BestBuy add to cart" annotations="JDK" preserve-order="true">
+    	<parameter name="iPhone" value="iPhone13"></parameter>
+        <classes>
+            <class name="runner.HomePageRunner"/>
+        </classes>
+    </test>
+
+    <test name="Add iphone 12 to BestBuy add to cart" annotations="JDK" preserve-order="true">
+    	<parameter name="iPhone" value="iPhone12"></parameter>
+        <classes>
+            <class name="runner.HomePageRunner"/>
+        </classes>
+    </test>
+</suite>

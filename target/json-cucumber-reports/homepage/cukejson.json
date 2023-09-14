@@ -1,0 +1,111 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-09-14T19:21:42.474Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1739278600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Add iPhone to Cart",
+        "description": "",
+        "id": "bestbuy-add-to-cart-verification;add-iphone-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 637354900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 139827482200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to BestBuy HomePage",
+            "match": {
+              "location": "HomePageSteps.aUserNavigatesToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19997508100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Search for a phone",
+            "match": {
+              "location": "HomePageSteps.aUserSearchesForPhone()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 217978000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should get the exact result",
+            "match": {
+              "location": "HomePageSteps.aUserGetsExactSearchResult()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10575384600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on Add to Cart button",
+            "match": {
+              "location": "HomePageSteps.aUserClicksAddToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10585535700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User verifies the message on Cart page",
+            "match": {
+              "location": "HomePageSteps.aUserVerifiedOnCart()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home_page"
+          }
+        ]
+      }
+    ],
+    "name": "BestBuy Add to Cart Verification",
+    "description": "",
+    "id": "bestbuy-add-to-cart-verification",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/HomePage/BestBuy_AddToCart.feature",
+    "tags": []
+  }
+]
